@@ -1,3 +1,95 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@font-face {
+    font-family: 'langdonregular';
+    src: url('langdon-webfont.eot');
+    src: url('langdon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('langdon-webfont.woff') format('woff'),
+         url('langdon-webfont.ttf') format('truetype'),
+         url('langdon-webfont.svg#langdonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'museo_sans500';
+    src: url('MuseoSans_500-webfont.eot');
+    src: url('MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('MuseoSans_500-webfont.woff') format('woff'),
+         url('MuseoSans_500-webfont.ttf') format('truetype'),
+         url('MuseoSans_500-webfont.svg#museo_sans500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.hero{
+	font-family: 'langdonregular';
+	color:#fff;
+	text-transform: uppercase;
+	background-image:image-url("hero-bar.jpg");
+	background-position: top center;
+	background-repeat: repeat-x;
+	height:530px;	
+	text-align: center;
+}
+
+.hero .callout{
+	width:450px;
+	margin:auto;
+}
+
+.hero h1{
+	font-size:72px;
+	margin-top:40px;
+}
+.hero h2{
+	font-size:42px;
+	letter-spacing: 2px;
+}
+
+.hero p{
+	text-transform: none;
+	font-family: 'museo_sans500';
+	text-align: justify;
+	margin-top:30px;
+}
+
+
+a.cta-button:link,a.cta-button:visited{
+	margin-top:30px;
+	width:250px;
+	height:60px;
+	box-shadow: #528d4d 0 4px 0;
+	background:#78cb76;
+	color:#fff;
+	text-shadow: 0 1px #333;
+	line-height: 60px;
+	display:inline-block;
+	font-family: 'museo_sans500';
+	border-radius: 4px;
+	font-size:21px;
+	-webkit-transition:background-color .2s, -webkit-transform .2s;
+    transition:background-color .2s, transform .2s;
+}
+a.cta-button:hover,a.cta-button:active{
+	background:#6cb46a;
+	color:#fff;
+	text-decoration: none;
+}
+
+
+.logo-rail{
+	background:#d9d9d9;
+	border-top:1px solid #666;
+	padding:15px 0;
+	text-align: center;
+}
+.logo-rail img{
+	margin:auto;
+	display: inline-block;
+	
+}

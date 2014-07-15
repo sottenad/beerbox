@@ -13,3 +13,50 @@
 */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar{
+	margin-bottom:0;
+	background:#444;
+	color:#fff;
+	border-color:none;
+	border-radius: 0;
+	border-width: 0;
+	border-bottom:1px solid #222;
+	height:65px;
+}
+
+.navbar .container{
+	position: relative;
+}
+
+.navbar-brand{
+	text-indent: -999em;
+	overflow: hidden;
+	height:108px;
+	width:108px;
+	background-image:image-url('beerbox-logo-small.png');
+	background-repeat: no-repeat;
+	display: block;
+	position: absolute;
+	top:10px;
+	left:0;
+}
+
+.navbar-nav > li > a{
+	padding-top:20px;
+	padding-bottom:20px;	
+}
+
+.navbar-default .navbar-nav > li > a{
+	color:#eee;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color:#ccc;
+}
+
+
+
+
+
+
+
