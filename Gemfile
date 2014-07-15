@@ -1,14 +1,12 @@
 source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 gem 'pg'
-group :assets do
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
-end
+
+
 group :development, :test do
 	gem "rspec-rails", ">= 2.12.2"
 	gem "factory_girl_rails", ">= 4.2.0"
-	gem "teaspoon", ">= 0.7.4"
+
 	gem "quiet_assets", ">= 1.0.2"
 	gem "better_errors", ">= 0.7.2"
 	gem "binding_of_caller", ">= 0.7.1", :platforms => [:mri_19, :rbx]
@@ -21,6 +19,9 @@ group :test do
 	gem "capybara", ">= 2.0.3"
 end
 
+gem "teaspoon", ">= 0.7.4"
+gem 'coffee-rails', '~> 3.2.1'
+gem 'uglifier', '>= 1.0.3'
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'sass-rails', '>= 3.2'
