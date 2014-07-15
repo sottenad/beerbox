@@ -10,13 +10,11 @@
     <%= yield(:head) %>
   </head>
   <body class="<%= controller_name %> <%= action_name %>">
-    <div class="navbar navbar-fixed-top">
-      <nav class="navbar-inner">
-        <div class="container">
+    <nav class="navbar navbar-default">
+	    <div class="collapse navbar-collapse">
           <%= render 'layouts/navigation' %>
         </div>
-      </nav>
-    </div>
+    </nav>
     <div id="main" role="main">
               <%= render 'layouts/messages' %>
               <%= yield %>
